@@ -11,7 +11,7 @@ body {
     box-sizing: border-box;
   }
   :root {
-      --container-color: rgb(214, 213, 211);
+      --container-color: rgba(214, 213, 211,0.7);
   }
   
   h2,h3,h4{
@@ -24,6 +24,9 @@ body {
     color:rgb(102, 39, 65)
   }
 
+  h1,h5 {
+      color: rgb(42, 56, 117);
+  }
  
   li{
     list-style: none;
@@ -43,6 +46,8 @@ body {
 
   .main_box {
       display: flex;
+      flex-wrap: wrap;
+      border: solid 1rem rgb(24, 22, 46);
   }
   .side-color {
       display: flex;
@@ -51,7 +56,6 @@ body {
       flex: 1 1 0;
       gap: 2rem;
       padding: 2rem;
-      border: solid 1rem rgb(24, 22, 46);
   }
   .outer_box {
       display: flex;
@@ -60,7 +64,7 @@ body {
       justify-content: center;
       gap: 2rem;
       padding: 2rem;
-      border: solid 1rem rgb(24, 22, 46);
+      
       background-color: rgb(39, 64, 102);
   }
 
@@ -90,6 +94,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 2rem;
+    background-color: rgba(206, 106, 106,0.5);
   }
 
   .language h2 {
@@ -106,6 +111,7 @@ body {
     flex : 50%;
     flex-direction: column;
     padding:2rem;
+    background-color: rgba(206, 106, 106,0.5);
   }
 
   .skills h2 {
@@ -122,9 +128,20 @@ body {
     padding-left: 2rem;
     background-color: rgb(185, 204, 230);
     padding:2rem;
+    justify-content: center;
+    align-items: center;
   }
 
   .footer-item-inline {
-      padding-top: 2rem;
       display: inline;
+      text-decoration: none;
+  }
+
+  .link-footer {
+      text-decoration: none;
+      color: rgb(29, 25, 87);
+  }
+
+  footer h2 {
+      padding: 0;
   }
