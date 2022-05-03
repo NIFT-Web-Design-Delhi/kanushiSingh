@@ -72,12 +72,14 @@ body {
       display: flex;
       background-color: var(--container-color);
       padding: 2rem;
+      text-align: justify;
   }
 
   .related_exp {
     display: flex;
     background-color: var(--container-color);
     padding: 2rem;
+    text-align: justify;
   }
 
   .academic_his {
