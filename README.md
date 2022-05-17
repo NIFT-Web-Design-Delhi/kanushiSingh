@@ -1,4 +1,6 @@
 # kanushiSingh
-Repository for Assignments
-Assignment 1 contains replicated website.
-Assignment 2 has my resume linked with the portfolio link of the assignment 1 website and my resume is responsive.
+[[JURY ASSIGNMENT1]](https://nift-web-design-delhi.github.io/kanushiSingh/Assignment_1)
+
+[[JURY ASSIGNMENT2]](https://nift-web-design-delhi.github.io/kanushiSingh/Assignment_2)
+
+[[JURY ASSIGNMENT3]](https://nift-web-design-delhi.github.io/kanushiSingh/Assignment3)
